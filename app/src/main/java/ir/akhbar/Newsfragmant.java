@@ -43,6 +43,7 @@ public class Newsfragmant extends Fragment {
                 String myname=txt1.getText().toString().trim();
                 String mypass=txt2.getText().toString().trim();
                 if (initioalis(myname,mypass)){
+                   // Toast.makeText(Activity, "", Toast.LENGTH_SHORT).show();
                     txt.setText("sabt shod");
                     rigsternews rigfragment=new rigsternews();
                    getFragmentManager()
